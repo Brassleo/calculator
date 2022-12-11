@@ -1,0 +1,12 @@
+# ninja log v5
+2	192	1670767201479616668	CMakeFiles/calculator.dir/arithmeticAndLogicOperators.cpp.o	812036a3b3cabccf
+375	419	1670767212177680916	calculator	fdd46a7068a6a7d3
+7	375	1670767212131167127	CMakeFiles/calculator.dir/main.cpp.o	abd1e11e880b357e
+9	402	1670774177496967158	CMakeFiles/calculator.dir/mathFunctions.cpp.o	ada64b937abbdbe7
+7	718	1670774177811165390	CMakeFiles/calculator.dir/main.cpp.o	abd1e11e880b357e
+7	38	1670774236074138002	CMakeFiles/calculator.dir/arithmeticAndLogicOperators.cpp.o	812036a3b3cabccf
+38	108	1670774236143928711	calculator	d89e647a6bb0be5d
+7	371	1670775030240916253	CMakeFiles/calculator.dir/arithmeticAndLogicOperators.cpp.o	812036a3b3cabccf
+7	381	1670775030251411917	CMakeFiles/calculator.dir/mathFunctions.cpp.o	ada64b937abbdbe7
+7	422	1670775048467170538	CMakeFiles/calculator.dir/main.cpp.o	abd1e11e880b357e
+422	491	1670775048538313137	calculator	d89e647a6bb0be5d

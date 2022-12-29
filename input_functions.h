@@ -1,0 +1,8 @@
+//
+// Created by Matsvei Kisin on 28.12.22.
+//
+
+#ifndef CALCULATOR_INPUT_FUNCTIONS_H
+#define CALCULATOR_INPUT_FUNCTIONS_H
+
+#endif //CALCULATOR_INPUT_FUNCTIONS_H

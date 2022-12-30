@@ -61,15 +61,15 @@ int rightShift(int a, int b){
     return a>>b;
 }
 
-bool negation(bool a){
+bool negat(bool a){
     return !a;
 }
 
-bool conjunction(bool a, bool b){
+bool conjunct(bool a, bool b){
     return a&&b;
 }
 
-bool disjunction(bool a, bool b){
+bool disjunct(bool a, bool b){
     return a||b;
 }
 

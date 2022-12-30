@@ -48,19 +48,25 @@ build cmake_object_order_depends_target_calculator: phony || CMakeFiles/calculat
 
 build CMakeFiles/calculator.dir/main.cpp.o: CXX_COMPILER__calculator_Debug /Users/matsvei/CLionProjects/calculator/main.cpp || cmake_object_order_depends_target_calculator
   DEP_FILE = CMakeFiles/calculator.dir/main.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/calculator.dir
   OBJECT_FILE_DIR = CMakeFiles/calculator.dir
 
 build CMakeFiles/calculator.dir/arithmeticAndLogicOperators.cpp.o: CXX_COMPILER__calculator_Debug /Users/matsvei/CLionProjects/calculator/arithmeticAndLogicOperators.cpp || cmake_object_order_depends_target_calculator
   DEP_FILE = CMakeFiles/calculator.dir/arithmeticAndLogicOperators.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/calculator.dir
   OBJECT_FILE_DIR = CMakeFiles/calculator.dir
 
 build CMakeFiles/calculator.dir/mathFunctions.cpp.o: CXX_COMPILER__calculator_Debug /Users/matsvei/CLionProjects/calculator/mathFunctions.cpp || cmake_object_order_depends_target_calculator
   DEP_FILE = CMakeFiles/calculator.dir/mathFunctions.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/calculator.dir
+
+build CMakeFiles/calculator.dir/scientificFunctions.cpp.o: CXX_COMPILER__calculator_Debug /Users/matsvei/CLionProjects/calculator/scientificFunctions.cpp || cmake_object_order_depends_target_calculator
+  DEP_FILE = CMakeFiles/calculator.dir/scientificFunctions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/calculator.dir
   OBJECT_FILE_DIR = CMakeFiles/calculator.dir
 
@@ -72,8 +78,8 @@ build CMakeFiles/calculator.dir/mathFunctions.cpp.o: CXX_COMPILER__calculator_De
 #############################################
 # Link the executable calculator
 
-build calculator: CXX_EXECUTABLE_LINKER__calculator_Debug CMakeFiles/calculator.dir/main.cpp.o CMakeFiles/calculator.dir/arithmeticAndLogicOperators.cpp.o CMakeFiles/calculator.dir/mathFunctions.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
+build calculator: CXX_EXECUTABLE_LINKER__calculator_Debug CMakeFiles/calculator.dir/main.cpp.o CMakeFiles/calculator.dir/arithmeticAndLogicOperators.cpp.o CMakeFiles/calculator.dir/mathFunctions.cpp.o CMakeFiles/calculator.dir/scientificFunctions.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/calculator.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -35,11 +35,11 @@ int leftShift(int number, int shift);
 
 int rightShift (int number, int shift);
 
-bool negation(bool);
+bool negat(bool);
 
-bool conjunction(bool, bool);
+bool conjunct(bool, bool);
 
-bool disjunction(bool, bool);
+bool disjunct(bool, bool);
 
 bool exclusiveOr(bool, bool);
 
